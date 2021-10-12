@@ -1,0 +1,27 @@
+.dating__card__container{
+    display:flex;
+    justify-content: center;
+    margin-top: 10vh;
+    .swipe{
+        position:absolute;
+        .card{
+            position:relative;
+            width:600px;
+            background-color:white;
+            padding: 20px;
+            max-width: 85vw;
+            height: 40vh;
+            box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3);
+            border-radius: 20px;
+            background-size:cover;
+            background-position:cover;
+            h3{
+                position:absolute;
+                bottom: 0;
+                margin: 10px;
+                color:blue
+            }
+        }
+    }
+    
+}
